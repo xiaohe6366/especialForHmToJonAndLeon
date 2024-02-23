@@ -87,11 +87,17 @@ Enter ship 4 location:
 **3 0**
 Enter ship 5 location:
 **3 4**
+
   0 1 2 3 4
+  
 0 - @ - - -
+
 1 - - - @ -
+
 2 - @ - - -
+
 3 @ - - - @
+
 4 - - - - -
 
 PLAYER 2, ENTER YOUR SHIPS’ COORDINATES.
@@ -108,11 +114,17 @@ Enter ship 4 location:
 **3 1**
 Enter ship 5 location:
 **4 4**
+
   0 1 2 3 4
+
 0 - @ - - @
+
 1 - - - - -
+
 2 @ - - - -
+
 3 - @ - - -
+
 4 - - - - @
 
 Player 1, enter hit row/column:
@@ -121,21 +133,32 @@ Invalid coordinates. Choose different coordinates.
 Player 1, enter hit row/column:
 **3 2**
 PLAYER 1 MISSED!
+
   0 1 2 3 4
+  
 0 - - - - -
+
 1 - - - - -
+
 2 - - - - -
+
 3 - - O - -
+
 4 - - - - -
 
 Player 2, enter hit row/column:
 **1 0**
 PLAYER 2 MISSED!
   0 1 2 3 4
+
 0 - - - - -
+
 1 O - - - -
+
 2 - - - - -
+
 3 - - - - -
+
 4 - - - - -
 
 Player 1, enter hit row/column:
@@ -144,61 +167,98 @@ You already fired on this spot. Choose different coordinates.
 Player 1, enter hit row/column:
 **0 4**
 PLAYER 1 HIT PLAYER 2’s SHIP!
+
   0 1 2 3 4
+
 0 - - - - X
+
 1 - - - - -
+
 2 - - - - -
+
 3 - - O - -
+
 4 - - - - -
 
 Player 2, enter hit row/column:
 **3 3**
+
 PLAYER 2 MISSED!
+
   0 1 2 3 4
+
 0 - - - - -
+
 1 O - - - -
+
 2 - - - - -
+
 3 - - - O -
+
 4 - - - - -
 
 Player 1, enter hit row/column:
 **2 0**
 PLAYER 1 HIT PLAYER 2’s SHIP!
+
   0 1 2 3 4
+
 0 - - - - X
+
 1 - - - - -
+
 2 X - - - -
+
 3 - - O - -
+
 4 - - - - -
 
 Player 2, enter hit row/column:
 **3 4**
 PLAYER 2 HIT PLAYER 1’s SHIP!
+
   0 1 2 3 4
+
 0 - - - - -
+
 1 O - - - -
+
 2 - - - - -
+
 3 - - - O X
+
 4 - - - - -
 
 Player 1, enter hit row/column:
 **4 4**
 PLAYER 1 HIT PLAYER 2’s SHIP!
+
   0 1 2 3 4
+
 0 - - - - X
+
 1 - - - - -
+
 2 X - - - -
+
 3 - - O - -
+
 4 - - - - X
 
 Player 2, enter hit row/column:
 **0 2**
 PLAYER 2 MISSED!
+
   0 1 2 3 4
+
 0 - - O - -
+
 1 O - - - -
+
 2 - - - - -
+
 3 - - - O X
+
 4 - - - - -
 
 >  *Skipping to the last turn*
@@ -207,27 +267,42 @@ Player 1, enter hit row/column:
 **3 1**
 PLAYER 1 HIT PLAYER 2’s SHIP!
   0 1 2 3 4
+
 0 - X - - X
+
 1 - - - - -
+
 2 X - - - -
+
 3 - X O - -
+
 4 - - - - X
 PLAYER 1 WINS! YOU SUNK ALL OF YOUR OPPONENT’S SHIPS!
 
 Final boards:
 
   0 1 2 3 4
+
 0 - @ O - -
+
 1 O - - @ -
+
 2 - @ - - -
+
 3 @ - - O X
+
 4 - O - - -
 
   0 1 2 3 4
+
 0 - X - - X
+
 1 - - - - -
+
 2 X - - - -
+
 3 - X O - -
+
 4 - - - - X
 
 ### Allowed Imports
