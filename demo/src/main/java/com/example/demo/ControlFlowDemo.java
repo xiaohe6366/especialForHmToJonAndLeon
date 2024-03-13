@@ -33,5 +33,10 @@ public class ControlFlowDemo {
         // (1)
         // (2) (4) (3)
         // (2) (4) (3)
+
+        for (int i = 0; ;i++) {
+            System.out.println(i);
+            if (i >= 10) break;
+        }
     }
 }
